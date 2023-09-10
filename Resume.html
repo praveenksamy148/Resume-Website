@@ -1,20 +1,95 @@
 <html style = "width:80%">
     <head>
         <title style = "margin-bottom: -12px;">Resume Page</title>
-        <style>
-            body {background-color: rgb(179, 202, 209);}
-            h1{
-                text-align: center;
-            }
-        </style>
     </head>
 
     <body>
-        <h1 style = "margin-bottom: -12px;">Resume Page</h1>
-        <h2 >Introduction</h2>
-        <p>Hello! My name is Praveen Kandasamy and I am thrilled to be taking this Software Engineering course. I am a junior here at San Jose State University studying Computer Engineering. Feel free to watch my introduction video below and check some of my recent projects and experience.</p>
-        
+        <div class = "introduction">
+            <style class = "introduction">
+                body {background-color: rgb(179, 202, 209);}
+            </style>
+            <h1 style = "margin-bottom: -12px; text-align: center;">Praveen Kandasamy</h1>
+        <p style="text-align: center;">
+            (510)-896-0957 | pravee.samy@gmail.com | 
+            <a href="https://www.linkedin.com/in/praveen-kandasamy/">LinkedIn</a> | 
+            <a href="https://www.github.com/praveenksamy148/">Github</a>
+            <br>
+            <h1 style="font-size: 20px; text-align: left;">
+                Education
+            </h1>
+            <b> Computer Engineering B.S. </b><em style=" float: right; padding-right: 10% "> August 2021 - Present</em>
+            <br>
+            <em> San Jose State University, San Jose, CA </em> <em style=" float: right; padding-right: 10% "> Expected Graduation: May 2025 </em> 
+            <br>
+            <p style="text-align: left;">
+                My transcript is linked below:
+            </p>
+            <a href="Transcript.html">Transcript</a>
+    
+        </p>
+        </div>
+        <div>
+            <h2 style="text-align: center;">Introduction</h2>
+            <p style="text-align: center;">
+                Hello my name is Praveen Kandasamy and I am excited to be taking this Software Engineering course this fall. I am currently a junior studying computer engineering major here at San Jose State and have interest in computer systems, robotics, project development, along with some web application development. Some of my hobbies and interests include playing basketball, volleyball, poker, along with cooking and gyming. I can almost bench 185. 
+            </p>
+            <br>
+            <img src="Album Cover.jpg" alt="Album Cover" width="300" height="300">
+
+        </div>"
+        <div class = "Objective">
+            <h2 style="text-align: center;">Aspirations & Objective</h2>
+            <p style="text-align: center;">I have aspirations to be a future software and computer engineer hopefully working to make a legitamate impact on our society. Currently I am not exactly sure what specific division of software/computer engineering I would like to work with as I have interests and experience in a wide variety of divisions. One thing I can confidently say is that I am motivated with my projects and work if they have a meaningful impact and if I can directly see the benefits the applications of the project will reap. I look forward to continuing my journey of learning, experimenting, and meeting new people from diverse backgrounds.</p>
+        </div>
+
+        <div class="Work Experience">
+            <h2 style="text-align: center;">Work Experience</h2>
+            <p>
+                <b> RadicalX</b><em style=" float: right; padding-right: 10% "> June - August 2023</em>
+                <br>
+                <em>Software Engineering Intern</em>
+                <ul>
+                    <li>Constructively developed with team on numerous unique projects involving web scraping, Pandas, and BeautifulSoup</li>
+                    <li>Programmed arbitrage sports betting model by pulling data from 4 different organizations for a multitude of game props</li>
+                    <li>Leveraged NBA API to database retreiving updated odds on sportsbooks applications</li>
+                </ul>
+            </p>
+            <br>
+            <p>
+                <b> The Software and Computer Engineering Society (SCE)</b><em style=" float: right; padding-right: 10% "> May 2022 - Present</em>
+                <br>
+                <em>AI/ML Development Team Officer</em>
+                <ul>
+                    <li>Collaborated with team in a multitude of diverse projects including full stack, Amazon Web Services, and Quasar</li>
+                    <li>Intergrated user authentication page with cookies along with login/logout functionality in organization's website</li>
+                    <li>Developed tool returning ping latency of organization's web applications and devices utilized by over 50 dev members</li>
+                </ul>
+            </p>
+            <br>
+            <p>
+                <b>RCP Consulting</b><em style=" float: right; padding-right: 10% "> May 2023 - Present</em>
+                <br>
+                <em>Web Developer/Co-Founder</em>
+                <ul>
+                    <li>Co-founded college consulting organization with goals to guide high school students through complex college application process including assistance in essay development, one-on-one consultations, and academic tutoring</li>
+                    <li>Developed organization’s website using multiple pages detailing company’s services and background using HTML/CSS</li>
+                    <li> Implemented new frontend architecture and visually appealing graphics and styling by leveraging HTML and CSS</li>
+                </ul>
+            </p>
+        </div>
+
+        <div class="Skills">
+            <h2 style="text-align: center;">Skills</h2>
+            <p>
+                <ul>
+                    <li><em>Proficient:</em> JavaScript, Git, C/C++</li>
+                    <li><em>Familiar:</em>Python, Java, SQL</li>
+                    <li><em>Experienced:</em>Amazon Web Services, MongoDB, Express.js, React.js, Arduino, SolidWorks</li>
+                </ul>
+            </p>
+        </div>
         <select name = "Projects" onchange="location = this.value;">
+            <option>Choose a Project:</option>
             <option value = "Project1.html">Project1</option>
             <option value = "Project2.html">Project2</option>
         </select>
