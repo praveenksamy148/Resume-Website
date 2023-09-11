@@ -1,1 +1,32 @@
-<h1>Ben is GAY</h1>
+<html>
+    <head>
+        <title>User Login Authentication Implementation</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(218, 201, 179); 
+        }
+    </style>
+    <body>
+        <div class="Introduction">
+            <h1 style="text-align: center;">User Login Authentication Implementation Page</h1>
+            <h2 style="text-align: center;">Project Purpose</h2>
+            <p>Login security is a crucial aspect of any website to protect the information of users and ensure that unwanted users don't access private parts of websites. Cookies and sessions can be used to store the information of users and ensure that only authenticated users can access specific parts of websites. Initially the Software and Computer Engineering Society (SCE) here on San Jose State campus did not have proper authentication. To fix this problem, I developed a proper user login authentication system which gives different levels of authentication to different levels of users. Depending on the login credentials a specific cookie is assigned to the level of the user. Ex: There are club members, team officers, and executive team members. Each position has different accessibilities and their unique cookie is stored in separate sessions.  </p>
+
+        <div>
+        <div>
+            <h4 style = "display: inline-block;">Source Code:</h4>
+            <a style="display: inline-block;" href = "https://www.github.com/praveenksamy148/Login-Authentication-with-Cookies-and-Sessions">Github Link</a>
+            <h2 style = "text-align: center;">Project Description</h2>
+            <h4 style="display: inline-block;">Technologies Utilized:</h4>
+            <p style="display: inline-block;">Express.js, Nodejs, MongoDB, Bcrypt</p>
+            <h4>Description:</h4>
+            <p>When users create account, level of authentication is selected (Club Member, Team Officer, Executive Staff). Based on selection, users login info stored in specific session stored in MongoDB database. Cookie from session sent to browser which contains session id. When users login in to pages, console checks cookies' session id containing level of authentication for users. For example if a club member tries to login in edit events page which they aren't authenticated for, console sees that their session id doesn't give them authentication for page redirect and doesn't allow them to enter page.</p>
+
+
+        </div>
+           
+        
+    </body>
+</html>
+<!-- <h1>Ben is GAY</h1> -->
