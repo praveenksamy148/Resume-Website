@@ -22,8 +22,6 @@
             <p style="display: inline-block;">Express.js, Nodejs, MongoDB, Bcrypt</p>
             <h4>Description:</h4>
             <p>When users create account, level of authentication is selected (Club Member, Team Officer, Executive Staff). Based on selection, users login info stored in specific session stored in MongoDB database. Cookie from session sent to browser which contains session id. When users login in to pages, console checks cookies' session id containing level of authentication for users. For example if a club member tries to login in edit events page which they aren't authenticated for, console sees that their session id doesn't give them authentication for page redirect and doesn't allow them to enter page.</p>
-
-
         </div>
            
         

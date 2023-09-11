@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Printing Development Tool</title>
+    </head>
+    <style>
+        body{
+            background-color: rgb(218, 201, 179); 
+        }
+    </style>
+    <body>
+        <div class="Introduction">
+            <h1 style="text-align: center;">Printing Development Tool Project</h1>
+            <h2 style="text-align: center;">Project Purpose</h2>
+            <p>The SJSU Software and Computer Engineering Society (SCE) offers free printing services to its club members. By using our club website and joining the server called Core-V4, students would be able to print any papers they need. However, the overall process took too much time as students would need to login onto the Core-V4 server, have Quasar running, and then print their papers. To solve this issue and overall reduce the time complexity of their process, I decided to create a printing dev tool that utilizes AWS S3 and AWS SQS services. With this printing dev tool, club members will be able to print directly from their terminal running the command npm-run-print and overall save much time on the printing process.  </p>
+            <img src="download function output.png" style= "display: inline-block;" alt="Console" width="600" height="300">
+            <img src="aws s3 printing bucket ss.png" style="display: inline-block;" alt = "Bucket" width = "600" height = "300">
+        <div>
+            <h4 style = "display: inline-block;">Presentation Slides (Slides 11-14):</h4>
+            <a style="display: inline-block;" href = "https://docs.google.com/presentation/d/1KBN97jwGuEd7V3vAPrN3HIR-WnZdzKXlR0OjHwXSWO8/edit#slide=id.g142402b5910_8_1">Slides Link</a>
+            <h2 style = "text-align: center;">Project Description</h2>
+            <h4 style="display: inline-block;">Technologies Utilized:</h4>
+            <p style="display: inline-block;">Nodejs, AWS S3, AWS SQS, Quasar</p>
+            <h4>Description:</h4>
+            <p>This project designed a dev tool allowing to directly upload files to SCE printing-dev bucket in AWS S3 and send queue messages to AWS SQS through Nodejs. In addition a method was created allowing for the download and deletion of files from SCE printing dev bucket. By running the dev tool, the file one needs printed gets stored in the S3 bucket and similateneously, a queue message is sent to AWS SQS. Quasar polls SQS for any queue messages every 10 seconds.Each file gets their own separate ID and the ID is read by Quasar to print the specific file. As shown in the above two images, when the command is run the terminal, the file gets it own specific ID and the ID is uploaded to the library IDE, along with the AWS S3 bucket.</p>
+
+        </div>
+           
+        
+    </body>
+</html>
+<!-- <h1>Ben is GAY</h1> -->
