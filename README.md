@@ -1,2 +1,2 @@
 # Resume-Website
-CMPE 131 HW 1 Resume Website
+CMPE 131 HW 1 Resume Website. This website includes multiple different html files including two project sections, a resume homepage along with a password protected transcript page. The password for the transcript page is "frankbutt". The resume page includes basic information including my skills, interests, basic introduction video, along with hobbies. The first project page details the project I developed involving a login authentication page using cookies and sessions. The second project talks about an printing development tool I created using AWS S3 and SQS connecting with Quasar which overall reduces the time it takes for SCE club members to print their papers. 
